@@ -1,7 +1,6 @@
 ---
 title: "Deprecation"
 date: 2017-12-18T13:14:37Z
-draft: true
 tags: [tech]
 ---
 
