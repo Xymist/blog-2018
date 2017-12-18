@@ -4,7 +4,7 @@ date = "2015-07-25T12:17:05Z"
 tags = ["Archaeology", "Outdoor Skills", "New Experiences"]
 +++
 
-**A few** weeks ago I was made aware by a friend that the Surrey Community Archaeology Unit are doing a dig not too far from my house. In the spirit of inquiry (I've never been part of an excavation before), I volunteered to assist. It's on the site of a military camp, erected for WWI, torn down in 1920, then re-established for WWII and finally removed around 1949. Since then the land has been managed by Natural England, so other than dog walkers not much has disturbed it, resulting in a rapid return to woodland.
+A few weeks ago I was made aware by a friend that the Surrey Community Archaeology Unit are doing a dig not too far from my house. In the spirit of inquiry (I've never been part of an excavation before), I volunteered to assist. It's on the site of a military camp, erected for WWI, torn down in 1920, then re-established for WWII and finally removed around 1949. Since then the land has been managed by Natural England, so other than dog walkers not much has disturbed it, resulting in a rapid return to woodland.
 
 Bearing in mind that this whole area was completely clear on both sides of the current A3 route in about 1950, with concrete and rubble all over, I'm quite impressed with the takeover by bracken and oak trees.
 

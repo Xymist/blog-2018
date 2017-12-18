@@ -4,7 +4,7 @@ date = "2015-08-22T12:50:50Z"
 tags = ["Book Review", "Recommended"]
 +++
 
-**It's very rare** for me to encounter a book which affects me enough that I have to put it down every few pages, think about it, and take notes. This is one of those rare ones. It's certainly not for everyone, but if you're looking for inspiration and for encouragement in being more effective, you'll start getting your fix about half a chapter in - and it doesn't let up.
+It's very rare for me to encounter a book which affects me enough that I have to put it down every few pages, think about it, and take notes. This is one of those rare ones. It's certainly not for everyone, but if you're looking for inspiration and for encouragement in being more effective, you'll start getting your fix about half a chapter in - and it doesn't let up.
 
 Marshall sets out his ambition to become 'the finest strategist of a generation', and then goes on to reveal how, precisely, he believes it will be possible for him to achieve this. From the wrong station in Japan to cafés and boardrooms across Europe, we are made privy to his introspection and planning.
 
@@ -28,7 +28,7 @@ The one insight which affected me most actually comes very near the beginning of
 
 It doesn't matter that you're doing better than your school friends, or 'people your age'. They're not the benchmark. Alexander of Macedon had conquered Europe, North Africa, and most of the way across Asia by the time he was thirty. Albert Einstein published his paper on Special Relativity at age 26. What did you do last year?
 
-I've long been fighting to reconcile my own feelings - that I should be doing considerably more, even though I don't know how - with the 'reassuring' common attitude that these people were somehow special superhumans, and thus it's OK not to aspire to achieve so much. Ikigai helped me realise that this is a false battle; it's **not** OK.
+I've long been fighting to reconcile my own feelings - that I should be doing considerably more, even though I don't know how - with the 'reassuring' common attitude that these people were somehow special superhumans, and thus it's OK not to aspire to achieve so much. Ikigai helped me realise that this is a false battle; it's *not* OK.
 
 I thoroughly recommend this book, *iff* you're willing to put the effort into it, and to make the mental adjustments necessary to internalise what it says. You'll know you're doing it right when you feel like ineffective crap and can't help but want to do something about that.
 

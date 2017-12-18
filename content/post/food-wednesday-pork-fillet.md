@@ -4,25 +4,27 @@ date = "2015-08-13T23:38:41Z"
 tags = ["Food Wednesday", "Pork"]
 +++
 
-**This week**, someone else's hands were doing the cooking, so I could and did remember to take photographs. Credit due Fiona for this one; we don't know where the recipe originated. Lateness due to difficulties in actually retrieving said photographs.
+This week, someone else's hands were doing the cooking, so I could and did remember to take photographs.
+Credit due Fiona for this one; we don't know where the recipe originated. Lateness due to difficulties in actually
+retrieving said photographs from the camera.
 
-*Pork Fillet with Figs and Tallegio - Serves three. Two if you're hungry. Four if you're small.*
+### Pork Fillet with Figs and Tallegio - Serves three. Two if you're hungry. Four if you're small.
 
-*Ingredients*
+#### Ingredients
 
- - One whole pork fillet
- - 6-8 dried figs
- - ~125ml dry sherry
- - 150g Tallegio D.O.P [^n]
- - A dozen or so sprigs fresh rosemary
- - Salt
- - Pepper
- - Courgettes
- - Butter
- - Red wild rice
- - Cream
+- One whole pork fillet
+- 6-8 dried figs
+- ~125ml dry sherry
+- 150g Tallegio D.O.P [^n]
+- A dozen or so sprigs fresh rosemary
+- Salt
+- Pepper
+- Courgettes
+- Butter
+- Red wild rice
+- Cream
 
-*Method*
+#### Procedure
 
 To start off, you want to get the figs drunk. They're parched, it's only kind. Sit them in a bowl, covered with the sherry, for at least an hour or so before you start doing anything else.
 

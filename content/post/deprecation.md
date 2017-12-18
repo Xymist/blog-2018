@@ -1,7 +1,7 @@
 ---
 title: "Deprecation"
 date: 2017-12-18T13:14:37Z
-tags: [tech]
+tags: [Tech]
 ---
 
 At my current employer, the primary product is a massive Rails monolith. It started in Rails 2,

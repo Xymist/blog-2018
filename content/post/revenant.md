@@ -1,7 +1,7 @@
 ---
 title: "Revenant"
 date: 2017-12-15T23:28:57Z
-tags: ['servers','tech','Heroku']
+tags: ['Servers','Tech','Heroku']
 ---
 
 **It's over a year** since I wrote anything here, and 'here' has moved anyway. I was terribly proud when I moved over to

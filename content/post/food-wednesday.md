@@ -4,39 +4,39 @@ date = "2015-07-29T19:50:57Z"
 tags = ["Food Wednesday", "Veal"]
 +++
 
-**I've decided** to do recipes on Wednesdays, because routine is comforting and food is important. Or the other way around, I can never remember.
+I've decided to do recipes on Wednesdays, because routine is comforting and food is important.
+Or the other way around, I can never remember. It was wet, cold, and dark all day today, so despite
+it being Summer I thought Winter food entirely appropriate. In that spirit I hunted in the freezer,
+and discovered we had some veal mince. Veal, for those of you not familiar, is young beef -
+it's tender and sweet, without the heavy beef flavour, much as lamb compares to hogget or mutton.
 
-It was wet, cold, and dark all day today, so despite it being Summer I thought Winter food entirely appropriate. In that spirit I hunted in the freezer, and discovered we had some veal mince. Veal, for those of you not familiar, is young beef - it's tender and sweet, without the heavy beef flavour, much as lamb compares to hogget or mutton.
 
+### Veal and Sweet Potato Pie
+#### Serves 4
 
-*Veal and Sweet Potato Pie;*
-*Serves 4*
+#### Ingredients
 
-*Ingredients*
+- 500g lean veal mince.[^1]
+- 75g pancetta, as lardons[^2]
+- 150g butter.[^3]
+- Two (2) medium onions
+- Two (2) banana shallots
+- Four (4) cloves garlic[^4]
+- 250ml red wine
+- 50ml balsamic vinegar
+- Salt
+- Pepper
+- Four (4) sweet potatoes
+- 50ml cream
+- 1/2 wheel of Boursin[^5]
+- Grating of parmesan
+- 50g tomato paste
+- Handful of pink peppercorns
+- Handful of chopped chives
+- Three (3) courgettes
+- Nutmeg
 
-500g lean veal mince.[^1]
-75g pancetta, as lardons[^2]
-150g butter.[^3]
-Two (2) medium onions
-Two (2) banana shallots
-Four (4) cloves garlic[^4]
-250ml red wine
-50ml balsamic vinegar
-Salt
-Pepper
-
-Four (4) sweet potatoes
-50ml cream
-1/2 wheel of Boursin[^5]
-Grating of parmesan
-50g tomato paste
-Handful of pink peppercorns
-Handful of chopped chives
-
-Three (3) courgettes
-Nutmeg
-
-*Method*
+#### Procedure
 
 Preheat oven to 473K.
 

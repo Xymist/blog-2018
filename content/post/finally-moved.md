@@ -4,7 +4,7 @@ date = "2015-12-21T22:31:39Z"
 tags = ["DIY", "Sysadmin", "Servers"]
 +++
 
-**I've been meaning** for a while to move over from shared hosting to a VPS, partly for control and partly because it seemed like the sort of thing I should know how to do.
+I've been meaning for a while to move over from shared hosting to a VPS, partly for control and partly because it seemed like the sort of thing I should know how to do.
 
 Along the way, I managed to:
 
@@ -20,7 +20,7 @@ This is the final step. This may prove useful to some of you, someday, under a s
 
 I bear no responsibility for any damage caused to your sanity or computer systems if you attempt to use this information.
 
-**Prep Work**
+### Prep Work
 
 First thing to do is create an [SSH key](https://en.wikipedia.org/wiki/Secure_Shell), since that's much more convenient than passwords.
 
@@ -42,7 +42,7 @@ Transfer the .crt containing the two certificates into `/etc/ssl/certs/`, and th
 
 Done all that? Right, go back and do it again; I won't be covering LetsEncrypt, so you'll need to get yourself an SSL certificate for the `mail.` subdomain. Same procedure, just with `mail.yourdomain` in place of `yourdomain` for the requests, and 'mail-yourdomain' for the names of the files.
 
-**Create a Droplet**
+### Create a Droplet
 
 Digital Ocean is nice enough to do most of the basic server setup for you. Once you've sorted out registering, giving them your card details and so on, you'll need to start by creating a Droplet. There's a nice select-a-box page which covers the major options, or you can spin up something with pre-installed dependencies for one of a couple of dozen common server uses.
 
@@ -52,7 +52,7 @@ You only want one copy of this, so leave that bit alone, give your new toy somet
 
 Bravo! You have a server. You're now paying 0.017 pence per minute for it, so best get cracking.
 
-**Initial Setup**
+### Initial Setup
 
 On the Control Panel (to which you are returned after creating your Droplet) you will be able to see the IP address of the server. For now, that's its only identifier; it doesn't yet have a web address, so we'll fix that first, since DNS changes take a while to propagate. Go back to where you bought your domain name, and find the options for 'nameservers'. For our current purposes, these should be set to 'ns1.digitalocean.com', 'ns2.digitalocean.com', and (you guessed it) 'ns3.digitalocean.com'. All this does is tell "the internet" to ask Digital Ocean where to find your site, if anyone sends out a request for that domain name.
 
@@ -91,7 +91,7 @@ sudo apt-get dist-upgrade
 
 That'll bring you up to date and ready for the next phase.
 
-**Setting up a web server**
+### Setting up a web server
 
 Presumably you're doing this because you want a website, which means you're going to need a web server. In this case I'm using Nginx; Apache is a perfectly good choice, but it's slightly more of a pain to configure.
 
@@ -147,7 +147,7 @@ This doesn't do anything useful yet - as you can tell, since `/var/www/yoursiten
 
 Save that, then start up Nginx with `sudo service Nginx start`. It should spin up with no errors, and if you then go back to your browser and navigate to your domain, you should see your page.
 
-**Mail Server**
+### Mail Server
 
 Next step is a touch harder, but worth the trouble; I'm afraid it'll be a wall of text, though, because it's almost all just a few huge config files.
 
@@ -306,7 +306,7 @@ At this point you probably want to give your new user `sudo` permissions, so tha
 
 Now it's time to attempt to login and send some mail with Thunderbird (or your mail client of choice). The username is YOURNAME (not YOURNAME@yourdomain), the IMAP port is 993, the SMTP port is 587, and you're using 'normal password' with STARTTLS.
 
-**Publishing a Website**
+### Publishing a Website
 
 OK, so you now have working email and a running webserver. You'll be wanting to publish something under the web address, so you need a convenient and fast way to transfer things to the server. The handiest, neatest way of doing this is with a Git repository, and a post-receive script (FTP went out with the nineties).
 

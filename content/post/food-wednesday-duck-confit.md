@@ -4,36 +4,40 @@ date = "2015-08-26T20:29:20Z"
 tags = ["Food Wednesday", "Duck"]
 +++
 
-**This one** was actually done on a Sunday, but you're getting it on Wednesday because how else does one maintain a new tradition?
+This one was actually done on a Sunday, but you're getting it on Wednesday because how else does one maintain a new tradition?
 
-Confit duck leg isn't exactly complex, though there's a fair bit in the sauce here, but it's delicious and sounds impressive, if that's something you go for in your food. Duck itself is a fairly versatile meat, so long as you don't overwhelm the flavour. In this instance it's paired with orange, which is classic, but there are an awful lot of options. This is also a ingredient in another recipe which I will at some point post here - cassoulet. Start three days early - if you want it for Saturday dinner, start on Wednesday night.
+Confit duck leg isn't exactly complex, though there's a fair bit in the sauce here, but it's delicious and sounds impressive,
+if that's something you go for in your food. Duck itself is a fairly versatile meat, so long as you don't overwhelm the flavour.
+In this instance it's paired with orange, which is classic, but there are an awful lot of options.
+This is also a ingredient in another recipe which I will at some point post here - cassoulet.
+Start three days early - if you want it for Saturday dinner, start on Wednesday night.
 
-**Duck Confit with Marmalade Sauce (serves 4)**
+### Duck Confit with Marmalade Sauce (serves 4)
 
-*Ingredients*
+#### Ingredients
 
- - Four duck legs
- - Juniper berries
- - Black pepper
- - Half a head of garlic
- - 150g salt
- - 75g caster sugar
- - About a kilo of duck fat
- - Ground cinnamon
- - Ground allspice
- - Half a jar of marmalade
- - 500ml vegetable or chicken stock
- - Glass dry white wine
- - 40ml soy sauce
- - 25ml mirin
- - 25ml Dijon mustard
- - 200ml freshly squeezed orange juice
- - One onion
- - 50g butter
- - Starch granules (or for the less lazy than me, half a floury potato diced really fine)
- - Four handfuls of red or wild rice
+- Four duck legs
+- Juniper berries
+- Black pepper
+- Half a head of garlic
+- 150g salt
+- 75g caster sugar
+- About a kilo of duck fat
+- Ground cinnamon
+- Ground allspice
+- Half a jar of marmalade
+- 500ml vegetable or chicken stock
+- Glass dry white wine
+- 40ml soy sauce
+- 25ml mirin
+- 25ml Dijon mustard
+- 200ml freshly squeezed orange juice
+- One onion
+- 50g butter
+- Starch granules (or for the less lazy than me, half a floury potato diced really fine)
+- Four handfuls of red or wild rice
 
-*Method*
+#### Procedure
 
 So, first up, you'll be desiccating your duck legs. Since most desiccants are not in the slightest bit tasty, the tradition here is sea salt, which (being hygroscopic) does the job excellently. During this process, we'll be taking the opportunity to get some interesting flavours into the meat as well.
 
