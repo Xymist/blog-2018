@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+<meta charset="utf-8" />
+<meta name="author" content="James" />
+<meta name="description" content="---" />
+<meta name="keywords" content="blog, tech, food" />
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="generator" content="Hugo 0.31.1" />
+
+<link rel="canonical" href="https://blog.jamieduerden.me/post/learning-me-a-haskell/">
+<base href="https://blog.jamieduerden.me" />
+<meta property="og:title" content="Learning Me A Haskell" />
+<meta property="og:description" content="Without much reason, I decided to try out a functional language. I have two scripting [Python, Ruby] and one imperative [D] at &lsquo;moderate&rsquo; competence. Won&rsquo;t be winning any prizes for code quality, but it&rsquo;s a learning process, and I&rsquo;m finding that as I try out more languages and frameworks, the underlying similarities are more and more obvious.
+There aren&rsquo;t that many straightforward, well supported functional languages out there, so with a recommendation from Sandy I went for Haskell." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.jamieduerden.me/post/learning-me-a-haskell/" />
+
+
+
+<meta property="article:published_time" content="2015-08-11T22:53:53&#43;00:00"/>
+
+<meta property="article:modified_time" content="2015-08-11T22:53:53&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Learning Me A Haskell"/>
+<meta name="twitter:description" content="Without much reason, I decided to try out a functional language. I have two scripting [Python, Ruby] and one imperative [D] at &lsquo;moderate&rsquo; competence. Won&rsquo;t be winning any prizes for code quality, but it&rsquo;s a learning process, and I&rsquo;m finding that as I try out more languages and frameworks, the underlying similarities are more and more obvious.
+There aren&rsquo;t that many straightforward, well supported functional languages out there, so with a recommendation from Sandy I went for Haskell."/>
+
+
+
+<meta itemprop="name" content="Learning Me A Haskell">
+<meta itemprop="description" content="Without much reason, I decided to try out a functional language. I have two scripting [Python, Ruby] and one imperative [D] at &lsquo;moderate&rsquo; competence. Won&rsquo;t be winning any prizes for code quality, but it&rsquo;s a learning process, and I&rsquo;m finding that as I try out more languages and frameworks, the underlying similarities are more and more obvious.
+There aren&rsquo;t that many straightforward, well supported functional languages out there, so with a recommendation from Sandy I went for Haskell.">
+
+
+<meta itemprop="datePublished" content="2015-08-11T22:53:53&#43;00:00" />
+<meta itemprop="dateModified" content="2015-08-11T22:53:53&#43;00:00" />
+<meta itemprop="wordCount" content="231">
+
+
+
+<meta itemprop="keywords" content="Coding,Haskell," />
+
+
+<link rel="stylesheet" href="css/layout.css" />
+<style type="text/css">
+body {
+  background-color: #101010;
+  color: #dbdbdb;
+}
+
+a { color: #dbdbdb; }
+
+pre {
+  background: #1D1F21;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+}
+
+code {
+  background: #1D1F21;
+}
+
+blockquote {
+  background: #1D1F21;
+  border-left: 3px solid #dbdbdb;
+}
+
+table {
+  margin: 1em auto;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #dbdbdb;
+}
+
+th {
+  background: #dbdbdb;
+  color: #101010;
+}
+
+.siteTitle a { color: #99cc66; }
+
+.post .content h1{ color: #99cc66; }
+.post .content h2{ color: #99cc66; }
+.post .content h3{ color: #99cc66; }
+.post .content h4{ color: #99cc66; }
+.post .content h5{ color: #99cc66; }
+.post .content h6{ color: #99cc66; }
+.post .content a:hover { color: #99cc66; }
+.social-link:hover { color: #99cc66; }
+.nav-item-title:hover { color: #99cc66; }
+.tag a:hover { color: #99cc66; }
+.copyright { color: #404040 }
+.poweredby { color: #404040 }
+.poweredby a { color: #404040; }
+.post-preview .title a{ color: #99cc66; }
+.content-item a:hover{
+  text-decoration: underline;
+  color: #99cc66;
+}
+.post-list .title { color: #99cc66; }
+.rmore { color: #99cc66; }
+.terms .term a:hover {
+  text-decoration: underline;
+  color: #99cc66;
+}
+
+</style>
+
+
+
+<title>
+
+
+     Learning Me A Haskell 
+
+</title>
+
+</head>
+
+
+<body>
+<div class="main">
+<header>
+
+<div class="header-bar">
+
+  <nav>
+    <div class="siteTitle">
+      <a href="https://blog.jamieduerden.me">Not So Fungible</a>
+    </div> 
+
+    
+    
+    <a class="nav-item" href="https://blog.jamieduerden.me/post/"><div class="nav-item-title">Posts</div></a>
+    
+    <a class="nav-item" href="https://blog.jamieduerden.me/tags/"><div class="nav-item-title">Tags</div></a>
+    
+
+  </nav>
+</div>
+
+  
+<div class="social-links-header">
+
+  
+  <a href="mailto:james@jamieduerden.me"><div class="social-link">email</div></a>
+  
+
+  
+  <a href="https://github.com/Xymist" target="_blank"><div class="social-link">gh</div></a>
+  
+
+  
+
+  
+
+  
+  <a href="https://www.linkedin.com/in/jamieduerden" target="_blank"><div class="social-link">in</div></a>
+  
+
+</div>
+
+
+</header>
+
+
+<article class="post">
+    <h1 class="title"> Learning Me A Haskell </h1>
+    <div class="content"> <p><strong>Without much</strong> reason, I decided to try out a functional language. I have two scripting [Python, Ruby] and one imperative [D] at &lsquo;moderate&rsquo; competence. Won&rsquo;t be winning any prizes for code quality, but it&rsquo;s a learning process, and I&rsquo;m finding that as I try out more languages and frameworks, the underlying similarities are more and more obvious.</p>
+
+<p>There aren&rsquo;t that many straightforward, well supported functional languages out there, so with a recommendation from <a href="http://sandymaguire.me">Sandy</a> I went for Haskell.</p>
+
+<p>That was yesterday.</p>
+
+<p>Today I passed my own FizzBuzz test: without using StackOverflow (or similar), from the documentation and recommended starting information<sup class="footnote-ref" id="fnref:1"><a rel="footnote" href="#fn:1">1</a></sup> alone, write the 3&amp;5 FizzBuzz program in that language. It&rsquo;s not that hard, but it&rsquo;s a little more involved than &lsquo;hello world&rsquo;, and helps with the structure and idioms of a new language.</p>
+
+<p>Commented for your convenience:</p>
+
+<pre data-line-numbers class="line-numbers language-haskell">
+<code class="language-haskell">
+fizz n = [ n | n <- [0..n], n `mod` 3 == 0] -- Find all the numbers between 0 and n divisible by three
+buzz n = [ n | n <- [0..n], n `mod` 5 == 0] -- Find all the numbers between 0 and n divisible by five
+
+genFizzBuzz n
+    | n == 0 = show n -- If it's zero, show zero. This is to fix a peculiarity I found where apparently zero is divisible by everything and thus gets a FizzBuzz.
+    | n `elem` fizz n && n `elem` buzz n = "FizzBuzz"
+    | n `elem` fizz n = "Fizz"
+    | n `elem` buzz n = "Buzz"
+    | otherwise = show n
+
+fizzy n = [genFizzBuzz x | x <- [0..n]] -- This just lets me set the range to have it work in.
+</code>
+</pre>
+
+<p>Crappy code, I know. I&rsquo;m sure there are smaller, neater ways of achieving the same thing, but it works and I&rsquo;m pleased. Eight working hours from &lsquo;I should learn this language&rsquo; to this stage via getting the compiler to work on Windows is a new record.</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1">In this case <a href="http://learnyouahaskell.com/">Learn You A Haskell</a>. I&rsquo;ve skimmed the whole thing, and am now reading in full. It&rsquo;s not as bizarre as the title implies, unlike <a href="http://mislav.uniqpath.com/poignant-guide/book/chapter-1.html">Why&rsquo;s Poignant Guide To Ruby</a> which is EXACTLY as weird as it sounds.
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+</ol>
+</div>
+ </div>
+    <footer class="post-footer">
+
+  <div class="post-footer-data">
+    
+<div class="tags">
+    
+      <div class="tag">
+        <a href="https://blog.jamieduerden.me/tags/coding">#Coding</a>
+      </div>
+    
+      <div class="tag">
+        <a href="https://blog.jamieduerden.me/tags/haskell">#Haskell</a>
+      </div>
+    
+</div>
+
+    <div class="date"> Aug 11, 2015 </div>
+  </div>
+
+</footer>
+
+
+  
+
+
+</article>
+
+  <footer>
+
+  <div class="social-links-footer">
+
+  
+  <a href="mailto:james@jamieduerden.me"><div class="social-link">Email</div></a>
+  
+
+  
+  <a href="https://github.com/Xymist" target="_blank"><div class="social-link">GitHub</div></a>
+  
+
+  
+
+  
+
+  
+  <a href="https://www.linkedin.com/in/jamieduerden" target="_blank"><div class="social-link">LinkedIn</div></a>
+  
+
+  <div class="social-link">
+  <a href="https://blog.jamieduerden.me/index.xml" target="_blank">RSS</a>
+  </div>
+
+</div>
+
+
+  <div class="copyright"> Copyright (c) 2017, all rights reserved. </div>
+
+  <div class="poweredby">
+    Powered by <a href="https://gohugo.io/">Hugo</a>.
+  </div>
+
+  </footer>
+
+</div> 
+
+</body>
+</html>
+

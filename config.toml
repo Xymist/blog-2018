@@ -1,0 +1,40 @@
+baseurl = "https://blog.jamieduerden.me"
+title = "Not So Fungible"
+copyright = "Copyright (c) 2017, all rights reserved."
+canonifyurls = true
+languageCode = "en-GB"
+paginate = 5
+theme = "hugo-dusk"
+pygmentsStyle = "native"
+pygmentsCodeFences = true
+
+[author]
+  name = "James"
+
+[[menu.main]]
+  name = "Posts"
+  weight = -120
+  identifier = "post"
+  url = "/post/"
+
+[[menu.main]]
+  name = "Tags"
+  weight = -110
+  identifier = "tag"
+  url = "/tags/"
+
+[params.meta]
+  keywords = "blog, tech, food"
+  description = "---"
+
+[params]
+  github = "Xymist"
+  linkedin = "jamieduerden"
+  email = "james@jamieduerden.me"
+
+[params.colors]
+  background = "#101010"
+  main = "#99cc66"
+  text = "#dbdbdb"
+  code-quote-bg = "#1D1F21"
+  copyright = "#404040"

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Duck on Not So Fungible</title>
+    <link>https://blog.jamieduerden.me/tags/duck/</link>
+    <description>Recent content in Duck on Not So Fungible</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <copyright>Copyright (c) 2017, all rights reserved.</copyright>
+    <lastBuildDate>Wed, 09 Dec 2015 15:30:09 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jamieduerden.me/tags/duck/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Food Wednesday: Cassoulet</title>
+      <link>https://blog.jamieduerden.me/post/food-wednesday-cassoulet/</link>
+      <pubDate>Wed, 09 Dec 2015 15:30:09 +0000</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/food-wednesday-cassoulet/</guid>
+      <description>I promised quite a long time ago, now, to give you all the rest of my recipe for not-actually-cassoulet. The confit duck legs of the previous recipe are one component of this; today you get the rest. Lucky you! I suggest you do the legs first since they need several days to mature.
+The topping on this variant happens to be gluten-free, which was originally just because a friend of mine has this habit of getting rather ill when she eats bread, but turned out to be a rather tasty alternative to breadcrumbs.</description>
+    </item>
+    
+    <item>
+      <title>Food Wednesday: Duck Confit</title>
+      <link>https://blog.jamieduerden.me/post/food-wednesday-duck-confit/</link>
+      <pubDate>Wed, 26 Aug 2015 20:29:20 +0000</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/food-wednesday-duck-confit/</guid>
+      <description>This one was actually done on a Sunday, but you&amp;rsquo;re getting it on Wednesday because how else does one maintain a new tradition?
+Confit duck leg isn&amp;rsquo;t exactly complex, though there&amp;rsquo;s a fair bit in the sauce here, but it&amp;rsquo;s delicious and sounds impressive, if that&amp;rsquo;s something you go for in your food. Duck itself is a fairly versatile meat, so long as you don&amp;rsquo;t overwhelm the flavour. In this instance it&amp;rsquo;s paired with orange, which is classic, but there are an awful lot of options.</description>
+    </item>
+    
+  </channel>
+</rss>

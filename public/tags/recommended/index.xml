@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recommended on Not So Fungible</title>
+    <link>https://blog.jamieduerden.me/tags/recommended/</link>
+    <description>Recent content in Recommended on Not So Fungible</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <copyright>Copyright (c) 2017, all rights reserved.</copyright>
+    <lastBuildDate>Sat, 22 Aug 2015 12:50:50 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jamieduerden.me/tags/recommended/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Book Review: Ikigai - Sebastian Marshall</title>
+      <link>https://blog.jamieduerden.me/post/book-review-ikigai/</link>
+      <pubDate>Sat, 22 Aug 2015 12:50:50 +0000</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/book-review-ikigai/</guid>
+      <description>It&amp;rsquo;s very rare for me to encounter a book which affects me enough that I have to put it down every few pages, think about it, and take notes. This is one of those rare ones. It&amp;rsquo;s certainly not for everyone, but if you&amp;rsquo;re looking for inspiration and for encouragement in being more effective, you&amp;rsquo;ll start getting your fix about half a chapter in - and it doesn&amp;rsquo;t let up.</description>
+    </item>
+    
+  </channel>
+</rss>

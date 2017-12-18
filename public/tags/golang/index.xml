@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Golang on Not So Fungible</title>
+    <link>https://blog.jamieduerden.me/tags/golang/</link>
+    <description>Recent content in Golang on Not So Fungible</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <copyright>Copyright (c) 2017, all rights reserved.</copyright>
+    <lastBuildDate>Thu, 19 May 2016 13:20:12 +0100</lastBuildDate>
+    
+	<atom:link href="https://blog.jamieduerden.me/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Surprisingly Long Timescales</title>
+      <link>https://blog.jamieduerden.me/post/surprisingly-long-timescales/</link>
+      <pubDate>Thu, 19 May 2016 13:20:12 +0100</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/surprisingly-long-timescales/</guid>
+      <description>It has been quite some time since I last wrote any content for this blog. I&amp;rsquo;ve been meaning to (the stack of article ideas and &amp;lsquo;TODO:&amp;rsquo; notes keeps growing, which ironically will be the subject of another post) but somehow the time and the will never seemed to coincide. This has mainly come about because I&amp;rsquo;ve been doing some actual useful work, at least some of which has involved some coding, which is always entertaining.</description>
+    </item>
+    
+    <item>
+      <title>Sloggit</title>
+      <link>https://blog.jamieduerden.me/post/sloggit/</link>
+      <pubDate>Wed, 30 Mar 2016 16:16:18 +0100</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/sloggit/</guid>
+      <description>I felt like building something less samey than another test website or to-do list app, so I&amp;rsquo;m working on a text-based adventure. As they say, the two hardest things in computer science are naming things and cache invalidation; consequently this little app labours under the uninspired name of &amp;ldquo;Sloggit&amp;rdquo;, until I can think of a better one.
+For the moment there are no caches involved, thankfully, but I am running into the less formally-hard problem of story writing.</description>
+    </item>
+    
+  </channel>
+</rss>

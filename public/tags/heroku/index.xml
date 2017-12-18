@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Heroku on Not So Fungible</title>
+    <link>https://blog.jamieduerden.me/tags/heroku/</link>
+    <description>Recent content in Heroku on Not So Fungible</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <copyright>Copyright (c) 2017, all rights reserved.</copyright>
+    <lastBuildDate>Fri, 15 Dec 2017 23:28:57 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jamieduerden.me/tags/heroku/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Revenant</title>
+      <link>https://blog.jamieduerden.me/post/revenant/</link>
+      <pubDate>Fri, 15 Dec 2017 23:28:57 +0000</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/revenant/</guid>
+      <description>It&amp;rsquo;s over a year since I wrote anything here, and &amp;lsquo;here&amp;rsquo; has moved anyway. I was terribly proud when I moved over to Digital Ocean, having never done much in the way of server admin before, and bothered to set up Nginx, Postfix, Dovecot, Nagios, Caddy&amp;hellip; In hindsight, it was sort of an achievement, but it was also a colossal waste of effort in many ways.
+In the last year of being employed to do that sort of thing as my day job, I&amp;rsquo;ve realised just how much value there is in getting someone else to do these things for you.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nagios on Not So Fungible</title>
+    <link>https://blog.jamieduerden.me/tags/nagios/</link>
+    <description>Recent content in Nagios on Not So Fungible</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <copyright>Copyright (c) 2017, all rights reserved.</copyright>
+    <lastBuildDate>Thu, 16 Jun 2016 17:31:57 +0100</lastBuildDate>
+    
+	<atom:link href="https://blog.jamieduerden.me/tags/nagios/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Monitoring with Nginx and Nagios Core</title>
+      <link>https://blog.jamieduerden.me/post/monitoring-nginx-nagios/</link>
+      <pubDate>Thu, 16 Jun 2016 17:31:57 +0100</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/monitoring-nginx-nagios/</guid>
+      <description>While working on the kiosk project I&amp;rsquo;ve been frustrated with the times when our remote terminals are turned off (usually by a user or a cleaner). We can&amp;rsquo;t set them to wake on LAN because we mostly have to go through firewalls and the wider internet, but it would at least be nice to know when and why I can&amp;rsquo;t connect. If nothing else we can then pick up a phone and tell someone to turn it on rather than running a bunch of fruitless network diagnostics.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogging on Not So Fungible</title>
+    <link>https://blog.jamieduerden.me/tags/blogging/</link>
+    <description>Recent content in Blogging on Not So Fungible</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <copyright>Copyright (c) 2017, all rights reserved.</copyright>
+    <lastBuildDate>Thu, 19 May 2016 13:20:12 +0100</lastBuildDate>
+    
+	<atom:link href="https://blog.jamieduerden.me/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Surprisingly Long Timescales</title>
+      <link>https://blog.jamieduerden.me/post/surprisingly-long-timescales/</link>
+      <pubDate>Thu, 19 May 2016 13:20:12 +0100</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/surprisingly-long-timescales/</guid>
+      <description>It has been quite some time since I last wrote any content for this blog. I&amp;rsquo;ve been meaning to (the stack of article ideas and &amp;lsquo;TODO:&amp;rsquo; notes keeps growing, which ironically will be the subject of another post) but somehow the time and the will never seemed to coincide. This has mainly come about because I&amp;rsquo;ve been doing some actual useful work, at least some of which has involved some coding, which is always entertaining.</description>
+    </item>
+    
+  </channel>
+</rss>

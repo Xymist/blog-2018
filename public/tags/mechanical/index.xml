@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mechanical on Not So Fungible</title>
+    <link>https://blog.jamieduerden.me/tags/mechanical/</link>
+    <description>Recent content in Mechanical on Not So Fungible</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <copyright>Copyright (c) 2017, all rights reserved.</copyright>
+    <lastBuildDate>Tue, 21 Jul 2015 19:56:10 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jamieduerden.me/tags/mechanical/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Single-Cylinder Engines (and grease)</title>
+      <link>https://blog.jamieduerden.me/post/single-cylinder-engines-and-grease/</link>
+      <pubDate>Tue, 21 Jul 2015 19:56:10 +0000</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/single-cylinder-engines-and-grease/</guid>
+      <description>I&amp;rsquo;ve been saying for a while that it would be an excellent idea for me to learn how to clean and maintain internal combustion engines. First because they&amp;rsquo;re interesting, and my knowledge of them has been limited to diagrams1, and second because at some point I&amp;rsquo;d like to own a Series 3 Land Rover or early Defender, which is sort of pointless unless I can maintain it myself.2
+Luckily for me, we had a spare IC-powered strimmer in the garage.</description>
+    </item>
+    
+  </channel>
+</rss>

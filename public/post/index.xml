@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Not So Fungible</title>
+    <link>https://blog.jamieduerden.me/post/</link>
+    <description>Recent content in Posts on Not So Fungible</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <copyright>Copyright (c) 2017, all rights reserved.</copyright>
+    <lastBuildDate>Fri, 15 Dec 2017 23:28:57 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jamieduerden.me/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Revenant</title>
+      <link>https://blog.jamieduerden.me/post/revenant/</link>
+      <pubDate>Fri, 15 Dec 2017 23:28:57 +0000</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/revenant/</guid>
+      <description>It&amp;rsquo;s over a year since I wrote anything here, and &amp;lsquo;here&amp;rsquo; has moved anyway. I was terribly proud when I moved over to Digital Ocean, having never done much in the way of server admin before, and bothered to set up Nginx, Postfix, Dovecot, Nagios, Caddy&amp;hellip; In hindsight, it was sort of an achievement, but it was also a colossal waste of effort in many ways.
+In the last year of being employed to do that sort of thing as my day job, I&amp;rsquo;ve realised just how much value there is in getting someone else to do these things for you.</description>
+    </item>
+    
+    <item>
+      <title>Moving Forward</title>
+      <link>https://blog.jamieduerden.me/post/moving-forward/</link>
+      <pubDate>Wed, 28 Sep 2016 18:01:00 +0000</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/moving-forward/</guid>
+      <description>Disappointingly, my favourite Italian deli closed down a couple of weeks ago. It&amp;rsquo;s a small thing, for me - I can no longer chat to Massimo, the owner, or indulge in his delicious heavily spiced meatball panini, but overall my life hasn&amp;rsquo;t really changed - but as time goes by I&amp;rsquo;m coming to realise that the small things can be remarkably important.
+It&amp;rsquo;s my birthday today. I&amp;rsquo;m twenty-five years old. That&amp;rsquo;s an important thing, so they tell me.</description>
+    </item>
+    
+    <item>
+      <title>Monitoring with Nginx and Nagios Core</title>
+      <link>https://blog.jamieduerden.me/post/monitoring-nginx-nagios/</link>
+      <pubDate>Thu, 16 Jun 2016 17:31:57 +0100</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/monitoring-nginx-nagios/</guid>
+      <description>While working on the kiosk project I&amp;rsquo;ve been frustrated with the times when our remote terminals are turned off (usually by a user or a cleaner). We can&amp;rsquo;t set them to wake on LAN because we mostly have to go through firewalls and the wider internet, but it would at least be nice to know when and why I can&amp;rsquo;t connect. If nothing else we can then pick up a phone and tell someone to turn it on rather than running a bunch of fruitless network diagnostics.</description>
+    </item>
+    
+    <item>
+      <title>Using Caddy with Rails</title>
+      <link>https://blog.jamieduerden.me/post/using-caddy-with-rails/</link>
+      <pubDate>Wed, 25 May 2016 22:19:58 +0100</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/using-caddy-with-rails/</guid>
+      <description>This is a bit of a brief one. If you search Google for ways to serve a Rails app running on Puma via Caddy server, you get nothing.
+Truly, nothing. Zilch, nada, despite my quite well practiced Google-fu. Apparently it&amp;rsquo;s just not done, or something.
+However, despite the fact that most possible Caddyfile configurations result in 502: Bad Gateway, there is one which works:
+https://domainname.co.uk { root /path/to/app/root log /path/to/app/root/log/access.log tls webmaster@domainname.</description>
+    </item>
+    
+    <item>
+      <title>Surprisingly Long Timescales</title>
+      <link>https://blog.jamieduerden.me/post/surprisingly-long-timescales/</link>
+      <pubDate>Thu, 19 May 2016 13:20:12 +0100</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/surprisingly-long-timescales/</guid>
+      <description>It has been quite some time since I last wrote any content for this blog. I&amp;rsquo;ve been meaning to (the stack of article ideas and &amp;lsquo;TODO:&amp;rsquo; notes keeps growing, which ironically will be the subject of another post) but somehow the time and the will never seemed to coincide. This has mainly come about because I&amp;rsquo;ve been doing some actual useful work, at least some of which has involved some coding, which is always entertaining.</description>
+    </item>
+    
+    <item>
+      <title>Sloggit</title>
+      <link>https://blog.jamieduerden.me/post/sloggit/</link>
+      <pubDate>Wed, 30 Mar 2016 16:16:18 +0100</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/sloggit/</guid>
+      <description>I felt like building something less samey than another test website or to-do list app, so I&amp;rsquo;m working on a text-based adventure. As they say, the two hardest things in computer science are naming things and cache invalidation; consequently this little app labours under the uninspired name of &amp;ldquo;Sloggit&amp;rdquo;, until I can think of a better one.
+For the moment there are no caches involved, thankfully, but I am running into the less formally-hard problem of story writing.</description>
+    </item>
+    
+    <item>
+      <title>Finally moving home</title>
+      <link>https://blog.jamieduerden.me/post/finally-moved/</link>
+      <pubDate>Mon, 21 Dec 2015 22:31:39 +0000</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/finally-moved/</guid>
+      <description>I&amp;rsquo;ve been meaning for a while to move over from shared hosting to a VPS, partly for control and partly because it seemed like the sort of thing I should know how to do.
+Along the way, I managed to:
+ Install Nginx (web server, for pointing people to this blog and my main site) Set up Git to allow me to version control and deploy my various sites Acquire an SSL Certificate so that I can force using HTTPS Install and configure Postfix and Dovecot so that my email addresses work.</description>
+    </item>
+    
+    <item>
+      <title>Food Wednesday: Cassoulet</title>
+      <link>https://blog.jamieduerden.me/post/food-wednesday-cassoulet/</link>
+      <pubDate>Wed, 09 Dec 2015 15:30:09 +0000</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/food-wednesday-cassoulet/</guid>
+      <description>I promised quite a long time ago, now, to give you all the rest of my recipe for not-actually-cassoulet. The confit duck legs of the previous recipe are one component of this; today you get the rest. Lucky you! I suggest you do the legs first since they need several days to mature.
+The topping on this variant happens to be gluten-free, which was originally just because a friend of mine has this habit of getting rather ill when she eats bread, but turned out to be a rather tasty alternative to breadcrumbs.</description>
+    </item>
+    
+    <item>
+      <title>Food Wednesday: Duck Confit</title>
+      <link>https://blog.jamieduerden.me/post/food-wednesday-duck-confit/</link>
+      <pubDate>Wed, 26 Aug 2015 20:29:20 +0000</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/food-wednesday-duck-confit/</guid>
+      <description>This one was actually done on a Sunday, but you&amp;rsquo;re getting it on Wednesday because how else does one maintain a new tradition?
+Confit duck leg isn&amp;rsquo;t exactly complex, though there&amp;rsquo;s a fair bit in the sauce here, but it&amp;rsquo;s delicious and sounds impressive, if that&amp;rsquo;s something you go for in your food. Duck itself is a fairly versatile meat, so long as you don&amp;rsquo;t overwhelm the flavour. In this instance it&amp;rsquo;s paired with orange, which is classic, but there are an awful lot of options.</description>
+    </item>
+    
+    <item>
+      <title>Lessons from Groundhog Day</title>
+      <link>https://blog.jamieduerden.me/post/lessons-from-groundhog-day/</link>
+      <pubDate>Sun, 23 Aug 2015 12:49:20 +0000</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/lessons-from-groundhog-day/</guid>
+      <description>The strange thing about this film is that it&amp;rsquo;s worth watching repeatedly. That&amp;rsquo;s usually just the mark of a good film, but given the premise involves a man repeating a single day of his life for what appears to be several subjective decades (or perhaps centuries), there&amp;rsquo;s a certain sense of the appropriate in its revisitability.
+On this watching, I was struck by something that I&amp;rsquo;d somehow missed the implications of before.</description>
+    </item>
+    
+    <item>
+      <title>Book Review: Ikigai - Sebastian Marshall</title>
+      <link>https://blog.jamieduerden.me/post/book-review-ikigai/</link>
+      <pubDate>Sat, 22 Aug 2015 12:50:50 +0000</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/book-review-ikigai/</guid>
+      <description>It&amp;rsquo;s very rare for me to encounter a book which affects me enough that I have to put it down every few pages, think about it, and take notes. This is one of those rare ones. It&amp;rsquo;s certainly not for everyone, but if you&amp;rsquo;re looking for inspiration and for encouragement in being more effective, you&amp;rsquo;ll start getting your fix about half a chapter in - and it doesn&amp;rsquo;t let up.</description>
+    </item>
+    
+    <item>
+      <title>Project Euler</title>
+      <link>https://blog.jamieduerden.me/post/project-euler/</link>
+      <pubDate>Fri, 14 Aug 2015 19:37:53 +0000</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/project-euler/</guid>
+      <description>If you&amp;rsquo;re considering teaching yourself to code, or even just to code in a new language, I heartily recommend you take a look at Project Euler. It&amp;rsquo;s essentially a collection of user-submitted maths questions, sufficiently tricky as to require solving by a computer, but sufficiently unintensive that programs capable of solving them can run in a reasonable time.
+The mathematics themselves are done by your code, but the real challenge lies in thinking through the necessary algorithms and program flow such that you can build something which fulfils the requirements.</description>
+    </item>
+    
+    <item>
+      <title>Food Wednesday: Pork Fillet &amp; Figs</title>
+      <link>https://blog.jamieduerden.me/post/food-wednesday-pork-fillet/</link>
+      <pubDate>Thu, 13 Aug 2015 23:38:41 +0000</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/food-wednesday-pork-fillet/</guid>
+      <description>This week, someone else&amp;rsquo;s hands were doing the cooking, so I could and did remember to take photographs. Credit due Fiona for this one; we don&amp;rsquo;t know where the recipe originated. Lateness due to difficulties in actually retrieving said photographs.
+Pork Fillet with Figs and Tallegio - Serves three. Two if you&amp;rsquo;re hungry. Four if you&amp;rsquo;re small.
+Ingredients
+ One whole pork fillet 6-8 dried figs ~125ml dry sherry 150g Tallegio D.</description>
+    </item>
+    
+    <item>
+      <title>Learning Me A Haskell</title>
+      <link>https://blog.jamieduerden.me/post/learning-me-a-haskell/</link>
+      <pubDate>Tue, 11 Aug 2015 22:53:53 +0000</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/learning-me-a-haskell/</guid>
+      <description>Without much reason, I decided to try out a functional language. I have two scripting [Python, Ruby] and one imperative [D] at &amp;lsquo;moderate&amp;rsquo; competence. Won&amp;rsquo;t be winning any prizes for code quality, but it&amp;rsquo;s a learning process, and I&amp;rsquo;m finding that as I try out more languages and frameworks, the underlying similarities are more and more obvious.
+There aren&amp;rsquo;t that many straightforward, well supported functional languages out there, so with a recommendation from Sandy I went for Haskell.</description>
+    </item>
+    
+    <item>
+      <title>Food Wednesday: Pulled Pork &#39;Arancini&#39;</title>
+      <link>https://blog.jamieduerden.me/post/food-wednesday-pulled-pork-arancini/</link>
+      <pubDate>Wed, 05 Aug 2015 21:54:38 +0000</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/food-wednesday-pulled-pork-arancini/</guid>
+      <description>This is one of those recipes where I can sort of see how it came into being, but it&amp;rsquo;s a long way from its starting points. The rice preparation is sushi base, the pulled pork goes well in sandwiches, arancini are Italian. Culturally horrifying? Sure. So sue me, it tastes great. Anyone not convinced about bacon, halloumi, mango and black pepper, just try it - it&amp;rsquo;s a great salad all by itself.</description>
+    </item>
+    
+    <item>
+      <title>Single-Cylinder Engines (2)</title>
+      <link>https://blog.jamieduerden.me/post/single-cylinder-engines-2/</link>
+      <pubDate>Tue, 04 Aug 2015 12:51:26 +0000</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/single-cylinder-engines-2/</guid>
+      <description>This weekend, I thought it would be sensible to attempt to finish what I&amp;rsquo;d started with the broken petrol engine.
+Having thoroughly de-greased and cleaned all the components, then rinsed them in WD-40 and left to dry for a week, I was hoping to see some improvement. Reassembly went reasonably well. It does turn over a great deal more easily; the sound of well-oiled machinery rather than grinding metal. However&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Satchelmaking (1/?)</title>
+      <link>https://blog.jamieduerden.me/post/satchelmaking/</link>
+      <pubDate>Fri, 31 Jul 2015 18:20:49 +0000</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/satchelmaking/</guid>
+      <description>Today&amp;rsquo;s new idea, given as a surprise by a friend, is a work satchel, suited to carrying both luncheon and tools. The spec was to be able to carry a lunchbox, a water bottle, and a selection of hand tools, plus snacks and possibly a notepad. It didn&amp;rsquo;t have to carry a laptop, which means smaller pockets and less weight overall.
+I generated a five-minute sketch to start with:
+Then switched to SketchUp to refine the idea:</description>
+    </item>
+    
+    <item>
+      <title>Food Wednesday: Veal and Sweet Potato Pie</title>
+      <link>https://blog.jamieduerden.me/post/food-wednesday/</link>
+      <pubDate>Wed, 29 Jul 2015 19:50:57 +0000</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/food-wednesday/</guid>
+      <description>I&amp;rsquo;ve decided to do recipes on Wednesdays, because routine is comforting and food is important. Or the other way around, I can never remember.
+It was wet, cold, and dark all day today, so despite it being Summer I thought Winter food entirely appropriate. In that spirit I hunted in the freezer, and discovered we had some veal mince. Veal, for those of you not familiar, is young beef - it&amp;rsquo;s tender and sweet, without the heavy beef flavour, much as lamb compares to hogget or mutton.</description>
+    </item>
+    
+    <item>
+      <title>Logos and Layouts</title>
+      <link>https://blog.jamieduerden.me/post/logos-and-layouts/</link>
+      <pubDate>Mon, 27 Jul 2015 21:34:58 +0000</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/logos-and-layouts/</guid>
+      <description>I&amp;rsquo;m not extensively trained in design principles; I should be, and will be addressing that deficiency at some point in the next year, but currently that sort of thing is all a bit hit and miss.
+I approached a friend1, who principally works in WordPress but has some additional experience in this area; he gave me some pointers on reducing the &amp;lsquo;blank&amp;rsquo; nature of the main site as a starting point.</description>
+    </item>
+    
+    <item>
+      <title>A Brief Foray into Archaeology</title>
+      <link>https://blog.jamieduerden.me/post/a-brief-foray-into-archaeology/</link>
+      <pubDate>Sat, 25 Jul 2015 12:17:05 +0000</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/a-brief-foray-into-archaeology/</guid>
+      <description>A few weeks ago I was made aware by a friend that the Surrey Community Archaeology Unit are doing a dig not too far from my house. In the spirit of inquiry (I&amp;rsquo;ve never been part of an excavation before), I volunteered to assist. It&amp;rsquo;s on the site of a military camp, erected for WWI, torn down in 1920, then re-established for WWII and finally removed around 1949. Since then the land has been managed by Natural England, so other than dog walkers not much has disturbed it, resulting in a rapid return to woodland.</description>
+    </item>
+    
+    <item>
+      <title>I Have a Rune!</title>
+      <link>https://blog.jamieduerden.me/post/i-have-a-rune/</link>
+      <pubDate>Tue, 21 Jul 2015 20:20:30 +0000</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/i-have-a-rune/</guid>
+      <description>Or something. The main site needed a logo, so I generated a sort of agglomeration of my three initials. My artistic skills with GIMP aren&amp;rsquo;t up to much, but it looks sort of the same as I sketched it:
+Still some work to do; it doesn&amp;rsquo;t feel quite right, but it&amp;rsquo;s unique and I made it, which is always a nice set of things to be able to say about something.</description>
+    </item>
+    
+    <item>
+      <title>Single-Cylinder Engines (and grease)</title>
+      <link>https://blog.jamieduerden.me/post/single-cylinder-engines-and-grease/</link>
+      <pubDate>Tue, 21 Jul 2015 19:56:10 +0000</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/single-cylinder-engines-and-grease/</guid>
+      <description>I&amp;rsquo;ve been saying for a while that it would be an excellent idea for me to learn how to clean and maintain internal combustion engines. First because they&amp;rsquo;re interesting, and my knowledge of them has been limited to diagrams1, and second because at some point I&amp;rsquo;d like to own a Series 3 Land Rover or early Defender, which is sort of pointless unless I can maintain it myself.2
+Luckily for me, we had a spare IC-powered strimmer in the garage.</description>
+    </item>
+    
+    <item>
+      <title>Progress is made!</title>
+      <link>https://blog.jamieduerden.me/post/progress-is-made/</link>
+      <pubDate>Thu, 16 Jul 2015 17:45:47 +0000</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/progress-is-made/</guid>
+      <description>It doesn&amp;rsquo;t look like much, but the main site is now nicely configured, and the root URL redirects where it&amp;rsquo;s supposed to&amp;hellip; unfortunately not transparently. Still working on that; apparently .htaccess configurations don&amp;rsquo;t play nice with ngRoute.
+I&amp;rsquo;ve also set up MathJax and Prism, so when I want to show off crappy code and inaccurate maths, they&amp;rsquo;ll look less crappy and inaccurate.
+This is a learning experience, like anything else. These posts rapidly become out of date; hopefully in a few months I can, as ever, look back and laugh at how &amp;lsquo;stupid&amp;rsquo; I was such a short time ago.</description>
+    </item>
+    
+    <item>
+      <title>Hello, World!</title>
+      <link>https://blog.jamieduerden.me/post/hello-world/</link>
+      <pubDate>Fri, 03 Jul 2015 14:38:48 +0000</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/hello-world/</guid>
+      <description>Not exactly original, as titles go, but hey, if the hat fits&amp;hellip;
+That you made it here shows a scintilla of imagination, given that it&amp;rsquo;s not linked from the main site. That or you&amp;rsquo;re very curious and randomly enter things into your address bar.
+The main portion of this site is an experiment in AngularJS, about which I know the square root of sod all, and principally exists because I needed something to practice on.</description>
+    </item>
+    
+  </channel>
+</rss>

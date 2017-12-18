@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/post/revenant/</loc>
+    <lastmod>2017-12-15T23:28:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/post/moving-forward/</loc>
+    <lastmod>2016-09-28T18:01:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/post/monitoring-nginx-nagios/</loc>
+    <lastmod>2016-06-16T17:31:57+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/post/using-caddy-with-rails/</loc>
+    <lastmod>2016-05-25T22:19:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/post/surprisingly-long-timescales/</loc>
+    <lastmod>2016-05-19T13:20:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/post/sloggit/</loc>
+    <lastmod>2016-03-30T16:16:18+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/post/finally-moved/</loc>
+    <lastmod>2015-12-21T22:31:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/post/food-wednesday-cassoulet/</loc>
+    <lastmod>2015-12-09T15:30:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/post/food-wednesday-duck-confit/</loc>
+    <lastmod>2015-08-26T20:29:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/post/lessons-from-groundhog-day/</loc>
+    <lastmod>2015-08-23T12:49:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/post/book-review-ikigai/</loc>
+    <lastmod>2015-08-22T12:50:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/post/project-euler/</loc>
+    <lastmod>2015-08-14T19:37:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/post/food-wednesday-pork-fillet/</loc>
+    <lastmod>2015-08-13T23:38:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/post/learning-me-a-haskell/</loc>
+    <lastmod>2015-08-11T22:53:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/post/food-wednesday-pulled-pork-arancini/</loc>
+    <lastmod>2015-08-05T21:54:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/post/single-cylinder-engines-2/</loc>
+    <lastmod>2015-08-04T12:51:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/post/satchelmaking/</loc>
+    <lastmod>2015-07-31T18:20:49+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/post/food-wednesday/</loc>
+    <lastmod>2015-07-29T19:50:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/post/logos-and-layouts/</loc>
+    <lastmod>2015-07-27T21:34:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/post/a-brief-foray-into-archaeology/</loc>
+    <lastmod>2015-07-25T12:17:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/post/i-have-a-rune/</loc>
+    <lastmod>2015-07-21T20:20:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/post/single-cylinder-engines-and-grease/</loc>
+    <lastmod>2015-07-21T19:56:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/post/progress-is-made/</loc>
+    <lastmod>2015-07-16T17:45:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/post/hello-world/</loc>
+    <lastmod>2015-07-03T14:38:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/archaeology/</loc>
+    <lastmod>2015-07-25T12:17:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/blogging/</loc>
+    <lastmod>2016-05-19T13:20:12+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/book-review/</loc>
+    <lastmod>2015-08-22T12:50:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/caddy/</loc>
+    <lastmod>2016-05-25T22:19:58+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/coding/</loc>
+    <lastmod>2016-05-19T13:20:12+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/diy/</loc>
+    <lastmod>2016-06-16T17:31:57+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/duck/</loc>
+    <lastmod>2015-12-09T15:30:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/films/</loc>
+    <lastmod>2015-08-23T12:49:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/food-wednesday/</loc>
+    <lastmod>2015-12-09T15:30:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/games/</loc>
+    <lastmod>2016-03-30T16:16:18+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/getting-started/</loc>
+    <lastmod>2015-07-03T14:38:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/golang/</loc>
+    <lastmod>2016-05-19T13:20:12+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/groundhog-day/</loc>
+    <lastmod>2015-08-23T12:49:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/haskell/</loc>
+    <lastmod>2015-08-11T22:53:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/heroku/</loc>
+    <lastmod>2017-12-15T23:28:57+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/hobbies/</loc>
+    <lastmod>2016-05-19T13:20:12+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/mechanical/</loc>
+    <lastmod>2015-07-21T19:56:10+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/nagios/</loc>
+    <lastmod>2016-06-16T17:31:57+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/new-experiences/</loc>
+    <lastmod>2015-07-25T12:17:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/nginx/</loc>
+    <lastmod>2016-06-16T17:31:57+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/</loc>
+    <lastmod>2017-12-15T23:28:57+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/outdoor-skills/</loc>
+    <lastmod>2015-07-25T12:17:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/pork/</loc>
+    <lastmod>2015-08-13T23:38:41+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/post/</loc>
+    <lastmod>2017-12-15T23:28:57+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/project-euler/</loc>
+    <lastmod>2015-08-14T19:37:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/recommended/</loc>
+    <lastmod>2015-08-22T12:50:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/ruby-on-rails/</loc>
+    <lastmod>2016-05-25T22:19:58+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/self-improvement/</loc>
+    <lastmod>2015-08-23T12:49:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/servers/</loc>
+    <lastmod>2017-12-15T23:28:57+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/sysadmin/</loc>
+    <lastmod>2016-06-16T17:31:57+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/</loc>
+    <lastmod>2015-07-25T12:17:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/tech/</loc>
+    <lastmod>2017-12-15T23:28:57+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/upskilling/</loc>
+    <lastmod>2015-07-21T19:56:10+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jamieduerden.me/tags/veal/</loc>
+    <lastmod>2015-07-29T19:50:57+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

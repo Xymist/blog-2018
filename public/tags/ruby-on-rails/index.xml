@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruby on Rails on Not So Fungible</title>
+    <link>https://blog.jamieduerden.me/tags/ruby-on-rails/</link>
+    <description>Recent content in Ruby on Rails on Not So Fungible</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <copyright>Copyright (c) 2017, all rights reserved.</copyright>
+    <lastBuildDate>Wed, 25 May 2016 22:19:58 +0100</lastBuildDate>
+    
+	<atom:link href="https://blog.jamieduerden.me/tags/ruby-on-rails/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using Caddy with Rails</title>
+      <link>https://blog.jamieduerden.me/post/using-caddy-with-rails/</link>
+      <pubDate>Wed, 25 May 2016 22:19:58 +0100</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/using-caddy-with-rails/</guid>
+      <description>This is a bit of a brief one. If you search Google for ways to serve a Rails app running on Puma via Caddy server, you get nothing.
+Truly, nothing. Zilch, nada, despite my quite well practiced Google-fu. Apparently it&amp;rsquo;s just not done, or something.
+However, despite the fact that most possible Caddyfile configurations result in 502: Bad Gateway, there is one which works:
+https://domainname.co.uk { root /path/to/app/root log /path/to/app/root/log/access.log tls webmaster@domainname.</description>
+    </item>
+    
+  </channel>
+</rss>

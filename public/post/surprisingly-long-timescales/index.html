@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+<meta charset="utf-8" />
+<meta name="author" content="James" />
+<meta name="description" content="---" />
+<meta name="keywords" content="blog, tech, food" />
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="generator" content="Hugo 0.31.1" />
+
+<link rel="canonical" href="https://blog.jamieduerden.me/post/surprisingly-long-timescales/">
+<base href="https://blog.jamieduerden.me" />
+<meta property="og:title" content="Surprisingly Long Timescales" />
+<meta property="og:description" content="It has been quite some time since I last wrote any content for this blog. I&rsquo;ve been meaning to (the stack of article ideas and &lsquo;TODO:&rsquo; notes keeps growing, which ironically will be the subject of another post) but somehow the time and the will never seemed to coincide. This has mainly come about because I&rsquo;ve been doing some actual useful work, at least some of which has involved some coding, which is always entertaining." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.jamieduerden.me/post/surprisingly-long-timescales/" />
+
+
+
+<meta property="article:published_time" content="2016-05-19T13:20:12&#43;01:00"/>
+
+<meta property="article:modified_time" content="2016-05-19T13:20:12&#43;01:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Surprisingly Long Timescales"/>
+<meta name="twitter:description" content="It has been quite some time since I last wrote any content for this blog. I&rsquo;ve been meaning to (the stack of article ideas and &lsquo;TODO:&rsquo; notes keeps growing, which ironically will be the subject of another post) but somehow the time and the will never seemed to coincide. This has mainly come about because I&rsquo;ve been doing some actual useful work, at least some of which has involved some coding, which is always entertaining."/>
+
+
+
+<meta itemprop="name" content="Surprisingly Long Timescales">
+<meta itemprop="description" content="It has been quite some time since I last wrote any content for this blog. I&rsquo;ve been meaning to (the stack of article ideas and &lsquo;TODO:&rsquo; notes keeps growing, which ironically will be the subject of another post) but somehow the time and the will never seemed to coincide. This has mainly come about because I&rsquo;ve been doing some actual useful work, at least some of which has involved some coding, which is always entertaining.">
+
+
+<meta itemprop="datePublished" content="2016-05-19T13:20:12&#43;01:00" />
+<meta itemprop="dateModified" content="2016-05-19T13:20:12&#43;01:00" />
+<meta itemprop="wordCount" content="777">
+
+
+
+<meta itemprop="keywords" content="Blogging,Coding,Golang,Hobbies," />
+
+
+<link rel="stylesheet" href="css/layout.css" />
+<style type="text/css">
+body {
+  background-color: #101010;
+  color: #dbdbdb;
+}
+
+a { color: #dbdbdb; }
+
+pre {
+  background: #1D1F21;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+}
+
+code {
+  background: #1D1F21;
+}
+
+blockquote {
+  background: #1D1F21;
+  border-left: 3px solid #dbdbdb;
+}
+
+table {
+  margin: 1em auto;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #dbdbdb;
+}
+
+th {
+  background: #dbdbdb;
+  color: #101010;
+}
+
+.siteTitle a { color: #99cc66; }
+
+.post .content h1{ color: #99cc66; }
+.post .content h2{ color: #99cc66; }
+.post .content h3{ color: #99cc66; }
+.post .content h4{ color: #99cc66; }
+.post .content h5{ color: #99cc66; }
+.post .content h6{ color: #99cc66; }
+.post .content a:hover { color: #99cc66; }
+.social-link:hover { color: #99cc66; }
+.nav-item-title:hover { color: #99cc66; }
+.tag a:hover { color: #99cc66; }
+.copyright { color: #404040 }
+.poweredby { color: #404040 }
+.poweredby a { color: #404040; }
+.post-preview .title a{ color: #99cc66; }
+.content-item a:hover{
+  text-decoration: underline;
+  color: #99cc66;
+}
+.post-list .title { color: #99cc66; }
+.rmore { color: #99cc66; }
+.terms .term a:hover {
+  text-decoration: underline;
+  color: #99cc66;
+}
+
+</style>
+
+
+
+<title>
+
+
+     Surprisingly Long Timescales 
+
+</title>
+
+</head>
+
+
+<body>
+<div class="main">
+<header>
+
+<div class="header-bar">
+
+  <nav>
+    <div class="siteTitle">
+      <a href="https://blog.jamieduerden.me">Not So Fungible</a>
+    </div> 
+
+    
+    
+    <a class="nav-item" href="https://blog.jamieduerden.me/post/"><div class="nav-item-title">Posts</div></a>
+    
+    <a class="nav-item" href="https://blog.jamieduerden.me/tags/"><div class="nav-item-title">Tags</div></a>
+    
+
+  </nav>
+</div>
+
+  
+<div class="social-links-header">
+
+  
+  <a href="mailto:james@jamieduerden.me"><div class="social-link">email</div></a>
+  
+
+  
+  <a href="https://github.com/Xymist" target="_blank"><div class="social-link">gh</div></a>
+  
+
+  
+
+  
+
+  
+  <a href="https://www.linkedin.com/in/jamieduerden" target="_blank"><div class="social-link">in</div></a>
+  
+
+</div>
+
+
+</header>
+
+
+<article class="post">
+    <h1 class="title"> Surprisingly Long Timescales </h1>
+    <div class="content"> <p><strong>It has been</strong> quite some time since I last wrote any content for this blog. I&rsquo;ve been meaning to (the stack of article ideas and &lsquo;TODO:&rsquo; notes keeps growing, which ironically will be the subject of another post) but somehow the time and the will never seemed to coincide. This has mainly come about because I&rsquo;ve been doing some actual useful work, at least some of which has involved some <a href="https://blog.jamieduerden.me/project/">coding</a>, which is always entertaining.</p>
+
+<p>It was nearly a year ago that I first started blogging; I&rsquo;ve learned a considerable amount since then (so much so that some of these posts now appear as &lsquo;how not to do it&rsquo;), which I suppose is a good sign. If I didn&rsquo;t read through my old posts and conclude that past!Jamie wasn&rsquo;t very bright, I wouldn&rsquo;t be progressing very much!</p>
+
+<p>I&rsquo;ve been in need of a good low-level (ish) language for some time - my D is poor, my C/C++ nonexistent, and my Java not exactly stellar. The biggest problem has been finding one which I like, and which compares favourably in terms of readability to Ruby, which has been my favourite language (slightly ahead of Python) for quite some time. <a href="https://blog.jamieduerden.me/post/learning-me-a-haskell">Haskell</a>, while beautiful and elegant when it&rsquo;s going right, is a complete pain when it&rsquo;s going wrong. Moreover it&rsquo;s not as fast as many other languages, and isn&rsquo;t especially marketable. I&rsquo;ll be keeping at it, though, because it has taught me more about how good code <em>works</em> than any other language.</p>
+
+<p>While investigating possibilities to fill this need, I looked at Clojure, Elixir, Swift and C# (for a variety of different reasons), but finally settled on Go. It&rsquo;s still not as heavily syntactically-sugared as I&rsquo;d like, but it&rsquo;s clean, tidy and fast, and compiles across all platforms to nice statically-linked binaries, which some others (Haskell and D, in particular) definitely do not. Attempting to cross-compile Haskell code for Windows on Linux was a nightmare. I&rsquo;m also quite fond of the GOPATH system (directly pulling dependencies from Github if they&rsquo;re not already cached? Yes please!) and the linting/hinting/prettifying tools don&rsquo;t hurt a bit.</p>
+
+<p>As a first pass at simplifying things, I&rsquo;ve moved both the site and the blog over to <a href="http://gohugo.io/">Hugo</a> - previously the site was slightly messy AngularJS while the blog ran on Ghost. I have no issues with Ghost, it&rsquo;s a lovely piece of software, but I was never entirely happy with Angular as a framework. Mostly because I don&rsquo;t like JavaScript very much. This has reduced the amount I needed to write quite considerably, though the theme did need some work, and integrates the blog properly into the website rather than having it as a separate engine.</p>
+
+<p>I have also dropped Nginx in favour of <a href="https://caddyserver.com/">Caddy</a>; not because I have anything against Nginx (unlike Apache; I&rsquo;m still using it for my other projects) but because it too is written in Go, it&rsquo;s small and simple to configure, and I wanted to test out some of its more cutting edge features, in particular the auto-SSL function which leverages LetsEncrypt&rsquo;s handy API to acquire a valid certificate on first startup. That went perfectly, so gone are the days of anyone having the slightest excuse for a self-signed (or absent!) certificate. I&rsquo;ve seen a slight reduction in server resource usage into the bargain, which while almost irrelevant on a site this size bodes well for scalability.</p>
+
+<p>In case anyone is interested, the difference between setting up Nginx and setting up Caddy is this:</p>
+
+<p><strong>Nginx</strong> (After having created, concatenated and installed an SSL certificate from elsewhere)</p>
+
+<pre><code>server {
+        listen 80 default_server;
+        server_name yourdomain.com www.yourdomain.com;
+        return 301 https://$server_name$request_uri;
+}       #This redirects all insecure traffic via https.
+
+server {
+        listen   443;
+
+        ssl    on;
+        ssl_certificate    /etc/ssl/certs/yourdomain.crt;
+        ssl_certificate_key    /etc/ssl/private/yourdomain.key;
+
+        root /var/www/yoursitename/public_html/;
+
+        index index.html index.htm;
+        server_name yourdomain.com www.yourdomain.com;
+
+        location / {
+                try_files $uri $uri/ /index.html;
+        }
+}
+</code></pre>
+
+<p><strong>Caddy</strong> (Without doing much of anything else apart from importing Caddy and the Hugo site)</p>
+
+<pre><code>https://jamieduerden.co.uk {
+    gzip
+    root public
+    basicauth /admin #USER# #PASS#
+    hugo
+}
+</code></pre>
+
+<p>Why reinvent what someone else has so beautifully wrought, hm?</p>
+
+<p>I&rsquo;ve taken the opportunity to update many of my old blog posts, reducing typos and so on, and to expand greatly my Projects section. That&rsquo;s somewhere between vanity and marketing, I think.</p>
+
+<p>Mucking around with websites aside, I do feel as if I have been slacking in my day to day life enrichment. Not enough shooting, cooking, or anything much else other than working. Good for my CV, not so good for my soul (metaphorically speaking; we don&rsquo;t actually have those). I&rsquo;ll be attempting to address this problem, and writing up the results here. It&rsquo;s sort of a two birds, one stone approach.</p>
+ </div>
+    <footer class="post-footer">
+
+  <div class="post-footer-data">
+    
+<div class="tags">
+    
+      <div class="tag">
+        <a href="https://blog.jamieduerden.me/tags/blogging">#Blogging</a>
+      </div>
+    
+      <div class="tag">
+        <a href="https://blog.jamieduerden.me/tags/coding">#Coding</a>
+      </div>
+    
+      <div class="tag">
+        <a href="https://blog.jamieduerden.me/tags/golang">#Golang</a>
+      </div>
+    
+      <div class="tag">
+        <a href="https://blog.jamieduerden.me/tags/hobbies">#Hobbies</a>
+      </div>
+    
+</div>
+
+    <div class="date"> May 19, 2016 </div>
+  </div>
+
+</footer>
+
+
+  
+
+
+</article>
+
+  <footer>
+
+  <div class="social-links-footer">
+
+  
+  <a href="mailto:james@jamieduerden.me"><div class="social-link">Email</div></a>
+  
+
+  
+  <a href="https://github.com/Xymist" target="_blank"><div class="social-link">GitHub</div></a>
+  
+
+  
+
+  
+
+  
+  <a href="https://www.linkedin.com/in/jamieduerden" target="_blank"><div class="social-link">LinkedIn</div></a>
+  
+
+  <div class="social-link">
+  <a href="https://blog.jamieduerden.me/index.xml" target="_blank">RSS</a>
+  </div>
+
+</div>
+
+
+  <div class="copyright"> Copyright (c) 2017, all rights reserved. </div>
+
+  <div class="poweredby">
+    Powered by <a href="https://gohugo.io/">Hugo</a>.
+  </div>
+
+  </footer>
+
+</div> 
+
+</body>
+</html>
+

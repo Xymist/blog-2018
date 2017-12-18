@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coding on Not So Fungible</title>
+    <link>https://blog.jamieduerden.me/tags/coding/</link>
+    <description>Recent content in Coding on Not So Fungible</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <copyright>Copyright (c) 2017, all rights reserved.</copyright>
+    <lastBuildDate>Thu, 19 May 2016 13:20:12 +0100</lastBuildDate>
+    
+	<atom:link href="https://blog.jamieduerden.me/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Surprisingly Long Timescales</title>
+      <link>https://blog.jamieduerden.me/post/surprisingly-long-timescales/</link>
+      <pubDate>Thu, 19 May 2016 13:20:12 +0100</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/surprisingly-long-timescales/</guid>
+      <description>It has been quite some time since I last wrote any content for this blog. I&amp;rsquo;ve been meaning to (the stack of article ideas and &amp;lsquo;TODO:&amp;rsquo; notes keeps growing, which ironically will be the subject of another post) but somehow the time and the will never seemed to coincide. This has mainly come about because I&amp;rsquo;ve been doing some actual useful work, at least some of which has involved some coding, which is always entertaining.</description>
+    </item>
+    
+    <item>
+      <title>Sloggit</title>
+      <link>https://blog.jamieduerden.me/post/sloggit/</link>
+      <pubDate>Wed, 30 Mar 2016 16:16:18 +0100</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/sloggit/</guid>
+      <description>I felt like building something less samey than another test website or to-do list app, so I&amp;rsquo;m working on a text-based adventure. As they say, the two hardest things in computer science are naming things and cache invalidation; consequently this little app labours under the uninspired name of &amp;ldquo;Sloggit&amp;rdquo;, until I can think of a better one.
+For the moment there are no caches involved, thankfully, but I am running into the less formally-hard problem of story writing.</description>
+    </item>
+    
+    <item>
+      <title>Project Euler</title>
+      <link>https://blog.jamieduerden.me/post/project-euler/</link>
+      <pubDate>Fri, 14 Aug 2015 19:37:53 +0000</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/project-euler/</guid>
+      <description>If you&amp;rsquo;re considering teaching yourself to code, or even just to code in a new language, I heartily recommend you take a look at Project Euler. It&amp;rsquo;s essentially a collection of user-submitted maths questions, sufficiently tricky as to require solving by a computer, but sufficiently unintensive that programs capable of solving them can run in a reasonable time.
+The mathematics themselves are done by your code, but the real challenge lies in thinking through the necessary algorithms and program flow such that you can build something which fulfils the requirements.</description>
+    </item>
+    
+    <item>
+      <title>Learning Me A Haskell</title>
+      <link>https://blog.jamieduerden.me/post/learning-me-a-haskell/</link>
+      <pubDate>Tue, 11 Aug 2015 22:53:53 +0000</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/learning-me-a-haskell/</guid>
+      <description>Without much reason, I decided to try out a functional language. I have two scripting [Python, Ruby] and one imperative [D] at &amp;lsquo;moderate&amp;rsquo; competence. Won&amp;rsquo;t be winning any prizes for code quality, but it&amp;rsquo;s a learning process, and I&amp;rsquo;m finding that as I try out more languages and frameworks, the underlying similarities are more and more obvious.
+There aren&amp;rsquo;t that many straightforward, well supported functional languages out there, so with a recommendation from Sandy I went for Haskell.</description>
+    </item>
+    
+    <item>
+      <title>Progress is made!</title>
+      <link>https://blog.jamieduerden.me/post/progress-is-made/</link>
+      <pubDate>Thu, 16 Jul 2015 17:45:47 +0000</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/progress-is-made/</guid>
+      <description>It doesn&amp;rsquo;t look like much, but the main site is now nicely configured, and the root URL redirects where it&amp;rsquo;s supposed to&amp;hellip; unfortunately not transparently. Still working on that; apparently .htaccess configurations don&amp;rsquo;t play nice with ngRoute.
+I&amp;rsquo;ve also set up MathJax and Prism, so when I want to show off crappy code and inaccurate maths, they&amp;rsquo;ll look less crappy and inaccurate.
+This is a learning experience, like anything else. These posts rapidly become out of date; hopefully in a few months I can, as ever, look back and laugh at how &amp;lsquo;stupid&amp;rsquo; I was such a short time ago.</description>
+    </item>
+    
+  </channel>
+</rss>

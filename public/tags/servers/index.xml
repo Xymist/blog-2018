@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Servers on Not So Fungible</title>
+    <link>https://blog.jamieduerden.me/tags/servers/</link>
+    <description>Recent content in Servers on Not So Fungible</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <copyright>Copyright (c) 2017, all rights reserved.</copyright>
+    <lastBuildDate>Fri, 15 Dec 2017 23:28:57 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jamieduerden.me/tags/servers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Revenant</title>
+      <link>https://blog.jamieduerden.me/post/revenant/</link>
+      <pubDate>Fri, 15 Dec 2017 23:28:57 +0000</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/revenant/</guid>
+      <description>It&amp;rsquo;s over a year since I wrote anything here, and &amp;lsquo;here&amp;rsquo; has moved anyway. I was terribly proud when I moved over to Digital Ocean, having never done much in the way of server admin before, and bothered to set up Nginx, Postfix, Dovecot, Nagios, Caddy&amp;hellip; In hindsight, it was sort of an achievement, but it was also a colossal waste of effort in many ways.
+In the last year of being employed to do that sort of thing as my day job, I&amp;rsquo;ve realised just how much value there is in getting someone else to do these things for you.</description>
+    </item>
+    
+    <item>
+      <title>Monitoring with Nginx and Nagios Core</title>
+      <link>https://blog.jamieduerden.me/post/monitoring-nginx-nagios/</link>
+      <pubDate>Thu, 16 Jun 2016 17:31:57 +0100</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/monitoring-nginx-nagios/</guid>
+      <description>While working on the kiosk project I&amp;rsquo;ve been frustrated with the times when our remote terminals are turned off (usually by a user or a cleaner). We can&amp;rsquo;t set them to wake on LAN because we mostly have to go through firewalls and the wider internet, but it would at least be nice to know when and why I can&amp;rsquo;t connect. If nothing else we can then pick up a phone and tell someone to turn it on rather than running a bunch of fruitless network diagnostics.</description>
+    </item>
+    
+    <item>
+      <title>Finally moving home</title>
+      <link>https://blog.jamieduerden.me/post/finally-moved/</link>
+      <pubDate>Mon, 21 Dec 2015 22:31:39 +0000</pubDate>
+      
+      <guid>https://blog.jamieduerden.me/post/finally-moved/</guid>
+      <description>I&amp;rsquo;ve been meaning for a while to move over from shared hosting to a VPS, partly for control and partly because it seemed like the sort of thing I should know how to do.
+Along the way, I managed to:
+ Install Nginx (web server, for pointing people to this blog and my main site) Set up Git to allow me to version control and deploy my various sites Acquire an SSL Certificate so that I can force using HTTPS Install and configure Postfix and Dovecot so that my email addresses work.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+<meta charset="utf-8" />
+<meta name="author" content="James" />
+<meta name="description" content="---" />
+<meta name="keywords" content="blog, tech, food" />
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="generator" content="Hugo 0.31.1" />
+
+<link rel="canonical" href="https://blog.jamieduerden.me/post/progress-is-made/">
+<base href="https://blog.jamieduerden.me" />
+<meta property="og:title" content="Progress is made!" />
+<meta property="og:description" content="It doesn&rsquo;t look like much, but the main site is now nicely configured, and the root URL redirects where it&rsquo;s supposed to&hellip; unfortunately not transparently. Still working on that; apparently .htaccess configurations don&rsquo;t play nice with ngRoute.
+I&rsquo;ve also set up MathJax and Prism, so when I want to show off crappy code and inaccurate maths, they&rsquo;ll look less crappy and inaccurate.
+This is a learning experience, like anything else. These posts rapidly become out of date; hopefully in a few months I can, as ever, look back and laugh at how &lsquo;stupid&rsquo; I was such a short time ago." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.jamieduerden.me/post/progress-is-made/" />
+
+
+
+<meta property="article:published_time" content="2015-07-16T17:45:47&#43;00:00"/>
+
+<meta property="article:modified_time" content="2015-07-16T17:45:47&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Progress is made!"/>
+<meta name="twitter:description" content="It doesn&rsquo;t look like much, but the main site is now nicely configured, and the root URL redirects where it&rsquo;s supposed to&hellip; unfortunately not transparently. Still working on that; apparently .htaccess configurations don&rsquo;t play nice with ngRoute.
+I&rsquo;ve also set up MathJax and Prism, so when I want to show off crappy code and inaccurate maths, they&rsquo;ll look less crappy and inaccurate.
+This is a learning experience, like anything else. These posts rapidly become out of date; hopefully in a few months I can, as ever, look back and laugh at how &lsquo;stupid&rsquo; I was such a short time ago."/>
+
+
+
+<meta itemprop="name" content="Progress is made!">
+<meta itemprop="description" content="It doesn&rsquo;t look like much, but the main site is now nicely configured, and the root URL redirects where it&rsquo;s supposed to&hellip; unfortunately not transparently. Still working on that; apparently .htaccess configurations don&rsquo;t play nice with ngRoute.
+I&rsquo;ve also set up MathJax and Prism, so when I want to show off crappy code and inaccurate maths, they&rsquo;ll look less crappy and inaccurate.
+This is a learning experience, like anything else. These posts rapidly become out of date; hopefully in a few months I can, as ever, look back and laugh at how &lsquo;stupid&rsquo; I was such a short time ago.">
+
+
+<meta itemprop="datePublished" content="2015-07-16T17:45:47&#43;00:00" />
+<meta itemprop="dateModified" content="2015-07-16T17:45:47&#43;00:00" />
+<meta itemprop="wordCount" content="261">
+
+
+
+<meta itemprop="keywords" content="Coding,Upskilling," />
+
+
+<link rel="stylesheet" href="css/layout.css" />
+<style type="text/css">
+body {
+  background-color: #101010;
+  color: #dbdbdb;
+}
+
+a { color: #dbdbdb; }
+
+pre {
+  background: #1D1F21;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+}
+
+code {
+  background: #1D1F21;
+}
+
+blockquote {
+  background: #1D1F21;
+  border-left: 3px solid #dbdbdb;
+}
+
+table {
+  margin: 1em auto;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #dbdbdb;
+}
+
+th {
+  background: #dbdbdb;
+  color: #101010;
+}
+
+.siteTitle a { color: #99cc66; }
+
+.post .content h1{ color: #99cc66; }
+.post .content h2{ color: #99cc66; }
+.post .content h3{ color: #99cc66; }
+.post .content h4{ color: #99cc66; }
+.post .content h5{ color: #99cc66; }
+.post .content h6{ color: #99cc66; }
+.post .content a:hover { color: #99cc66; }
+.social-link:hover { color: #99cc66; }
+.nav-item-title:hover { color: #99cc66; }
+.tag a:hover { color: #99cc66; }
+.copyright { color: #404040 }
+.poweredby { color: #404040 }
+.poweredby a { color: #404040; }
+.post-preview .title a{ color: #99cc66; }
+.content-item a:hover{
+  text-decoration: underline;
+  color: #99cc66;
+}
+.post-list .title { color: #99cc66; }
+.rmore { color: #99cc66; }
+.terms .term a:hover {
+  text-decoration: underline;
+  color: #99cc66;
+}
+
+</style>
+
+
+
+<title>
+
+
+     Progress is made! 
+
+</title>
+
+</head>
+
+
+<body>
+<div class="main">
+<header>
+
+<div class="header-bar">
+
+  <nav>
+    <div class="siteTitle">
+      <a href="https://blog.jamieduerden.me">Not So Fungible</a>
+    </div> 
+
+    
+    
+    <a class="nav-item" href="https://blog.jamieduerden.me/post/"><div class="nav-item-title">Posts</div></a>
+    
+    <a class="nav-item" href="https://blog.jamieduerden.me/tags/"><div class="nav-item-title">Tags</div></a>
+    
+
+  </nav>
+</div>
+
+  
+<div class="social-links-header">
+
+  
+  <a href="mailto:james@jamieduerden.me"><div class="social-link">email</div></a>
+  
+
+  
+  <a href="https://github.com/Xymist" target="_blank"><div class="social-link">gh</div></a>
+  
+
+  
+
+  
+
+  
+  <a href="https://www.linkedin.com/in/jamieduerden" target="_blank"><div class="social-link">in</div></a>
+  
+
+</div>
+
+
+</header>
+
+
+<article class="post">
+    <h1 class="title"> Progress is made! </h1>
+    <div class="content"> <p>It doesn&rsquo;t <em>look</em> like much, but the main site is now nicely configured, and the root URL redirects where it&rsquo;s supposed to&hellip; unfortunately not transparently. Still working on that; apparently .htaccess configurations don&rsquo;t play nice with ngRoute.</p>
+
+<p>I&rsquo;ve also set up <a href="http://mathjax.org">MathJax</a> and <a href="http://prismjs.com">Prism</a>, so when I want to show off crappy code and inaccurate maths, they&rsquo;ll look less crappy and inaccurate.</p>
+
+<p>This is a learning experience, like anything else. These posts rapidly become out of date; hopefully in a few months I can, as ever, look back and laugh at how &lsquo;stupid&rsquo; I was such a short time ago. @Future!Jamie: Please confirm or deny?
+|WhenSend reminder set for 2015-10-01.|</p>
+
+<p>Working in AngularJS is proving tricky for all sorts of reasons, but it feels a lot less &lsquo;magical&rsquo; than working in Rails. With the latter, a small amount of very neat and readable Ruby code is leveraged into a working site, but without fine-grained control or obvious mechanism being necessary. Javascript is less forgiving, but much more configurable. I&rsquo;m sure once I understand, rather than simply &lsquo;understanding&rsquo; enough to make it work, there will be many more places to go.</p>
+
+<p>I held off on learning JS for a long time, preferring the friendliness of Python and Ruby. I may live to regret that delay, but so far, upskilling is proving fun.</p>
+
+<p>Level Up - one skill point.</p>
+
+<p>Jamie</p>
+
+<hr />
+
+<p><em>Future!Jamie here: This does indeed look a bit ridiculous from this end of the year. Moreover it&rsquo;s hopelessly out of date, since I no longer use Angular, Prism or Apache2 for the website&hellip;</em></p>
+ </div>
+    <footer class="post-footer">
+
+  <div class="post-footer-data">
+    
+<div class="tags">
+    
+      <div class="tag">
+        <a href="https://blog.jamieduerden.me/tags/coding">#Coding</a>
+      </div>
+    
+      <div class="tag">
+        <a href="https://blog.jamieduerden.me/tags/upskilling">#Upskilling</a>
+      </div>
+    
+</div>
+
+    <div class="date"> Jul 16, 2015 </div>
+  </div>
+
+</footer>
+
+
+  
+
+
+</article>
+
+  <footer>
+
+  <div class="social-links-footer">
+
+  
+  <a href="mailto:james@jamieduerden.me"><div class="social-link">Email</div></a>
+  
+
+  
+  <a href="https://github.com/Xymist" target="_blank"><div class="social-link">GitHub</div></a>
+  
+
+  
+
+  
+
+  
+  <a href="https://www.linkedin.com/in/jamieduerden" target="_blank"><div class="social-link">LinkedIn</div></a>
+  
+
+  <div class="social-link">
+  <a href="https://blog.jamieduerden.me/index.xml" target="_blank">RSS</a>
+  </div>
+
+</div>
+
+
+  <div class="copyright"> Copyright (c) 2017, all rights reserved. </div>
+
+  <div class="poweredby">
+    Powered by <a href="https://gohugo.io/">Hugo</a>.
+  </div>
+
+  </footer>
+
+</div> 
+
+</body>
+</html>
+
