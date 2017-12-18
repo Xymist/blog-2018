@@ -42,4 +42,4 @@ if someone tries to make you live there without giving you time and money to all
 you are entirely within your rights to make a fuss. The same goes for bad dependencies as for bad code;
 a deprecation warning isn't a polite suggestion. It's a boiler that needs servicing, a rotting windowframe.
 You might still be functional, you might still be watertight and warm, and the new kitchen table all your guests can see
-and use is lovely - but you're storing up expensive trouble.
+and use is lovely - but you're storing up expensive trouble for the future.
