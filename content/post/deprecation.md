@@ -42,3 +42,40 @@ you are entirely within your rights to make a fuss. The same goes for bad depend
 a deprecation warning isn't a polite suggestion. It's a boiler that needs servicing, a rotting windowframe.
 You might still be functional, you might still be watertight and warm, and the new kitchen table all your guests can see
 and use is lovely - but you're storing up expensive trouble for the future.
+
+This is commonly referred to as 'technical debt'. Occasionally someone brings up the slightly more precise suggestion
+that it should be referred to as a 'technical unhedged call option'. While financial analogies are not perfect nor are
+comparisons to buildings and excessive feline collections, so we just have to make do with what we've got.
+
+There are many forms of debt, some worse than others. Some, like the mountains of poor code you write at 3am to get
+your startup off the ground, can be mostly helpful. Think of it like a mortgage - you're in debt, you will need to
+pay it down, but it gives you leverage you could otherwise never dream of. The same happens with big projects; you
+and your team will code quickly and as well as you can under the circumstances, and it might not be the best or most
+well organised code, but it does the job and people buy the product. As long as you don't forget to allocate the time
+to come back and refactor it later to pay it down, you'll be fine.
+
+Another kind of debt is the tests you don't write and the comments you leave out. This is more like credit card debt
+or payday loans than anything else. It grows daily as you work, and the payments are frequent and get worse with every iteration.
+Every change you make that breaks an untested function elsewhere, every hour you spend poring over code trying to work
+out what they last person to edit it was trying to achieve, is time from both your life and the pocket of whoever's paying
+for whatever you're working on.
+
+The final kind is the unhedged call option. This is the code you think you'll write once, and perhaps never touch again. Scripts
+which do something important but are only needed once a year. Small projects you hope to move on from. New features you're
+not sure about but which underpin something larger that you need to get to. Ignored deprecation warnings and outdated
+dependencies. You might never need to pay this back. You could be fine for _years_ without suffering the consequences
+of poor code and infrequent dependency updates. The market moves, however, and eventually you get unlucky. Perhaps a new
+technology you need is incompatible with parts of your codebase. Perhaps there's a known major security vulnerability in a
+library on which your entire application depends.
+
+Whatever it is, suddenly you have to do all the work that should have been done over time to keep these things cleaned up and
+up to date, but you have to do it _right now_. Before the next feature can go live. Perhaps before anyone notices you're
+vulnerable and steals your entire customer database. So you spec the work, and discover that your codebase has called in
+its option on that work, and the price is now six to twelve months of your entire team doing absolutely nothing else whatsoever.
+No features. No projects. Bugfixes galore because you might as well while the refactoring is going on, but nothing that feels
+'productive'. How much do you spend on salaries for your dev team? The bad news is that not keeping up with your dependencies
+just cost you six figures, but the good news is that half of them will quit in disgust when they realise what you're asking
+them to do, so you can save half of it.
+
+Do the projects, accumulate the debt; there's no other way to do business. Just don't forget that one day, you will have to
+pay it down, and that will hurt a hell of a lot more if you haven't made either payments or a sinking fund.
