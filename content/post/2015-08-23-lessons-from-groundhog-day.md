@@ -1,7 +1,7 @@
 +++
 title = "Lessons from Groundhog Day"
 date = "2015-08-23T12:49:20Z"
-tags = ["self-improvement", "films", "Groundhog Day"]
+tags = ["Self-improvement", "Films", "Groundhog Day"]
 +++
 
 **The strange thing** about [this film](http://www.imdb.com/title/tt0107048/) is that it's worth watching repeatedly. That's usually just the mark of a good film, but given the premise involves a man repeating a single day of his life for what appears to be several subjective decades (or perhaps centuries), there's a certain sense of the appropriate in its revisitability.
