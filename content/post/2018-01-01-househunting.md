@@ -1,6 +1,6 @@
 ---
 title: "Househunting"
-date: 2017-12-18T17:31:54Z
+date: 2018-01-01T17:31:54Z
 draft: true
 tags: [Flats]
 ---
@@ -15,5 +15,9 @@ a house purchase might fall through, and a couple of them happened to come up. R
 poor management and some rather disconcerting details about the company doing the conversion lead to me
 needing to pull out before anything was signed.
 
-There followed a couple of months of spinning wheels while I sought something else that seemed worthwhile.
-
+There followed a couple of months of spinning wheels while I sought something else that seemed worthwhile. Sad to
+say, the market for reasonably priced detached homes for single people in South East England is a bit slim,
+so a flat it would have to be. I don't particularly like having neighbours, but since I don't yet possess the
+resources necessary to purchase large quantities of land just so that nobody else can live within my horizon
+I have resolved to take the cheaper option of spending the majority of my time indoors. That does, however, mean
+that I need enough floor space not to go completely insane; about seven hundred square foot, empirically.

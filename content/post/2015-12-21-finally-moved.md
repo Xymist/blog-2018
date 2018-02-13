@@ -13,7 +13,7 @@ Along the way, I managed to:
  - Acquire an [SSL Certificate](http://startssl.com) so that I can force using HTTPS
  - Install and configure [Postfix](http://www.postfix.org/) and [Dovecot](http://www.dovecot.org/) so that my email addresses work.
  - Move my site (and blog) over to the new server
- - Write a blog post explaining these steps so that I can refer back to it when I need to do this *ridiculously* protracted process again.
+ - Write a blog post explaining these steps so that I can refer back to it when (or if) I need to do this *ridiculously* protracted process again.
 
 This is the final step. This may prove useful to some of you, someday, under a somewhat unlikely set of circumstances. I won't be covering what to do if you use Windows, other than to say that for the first steps you'll need [PuTTY](http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) for the connections, and [PuTTYgen](http://the.earth.li/~sgtatham/putty/latest/x86/puttygen.exe) to create your SSH key.
 
